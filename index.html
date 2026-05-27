@@ -1,9 +1,3 @@
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -134,17 +128,22 @@ Trading involves risk. Do your own research and trade responsibly.
 <p class="managed">Ads Managed by  
   <a href="https://t.me/+TRlJl628l-FkMWE9" target="_blank">@Nexgroww_agency</a>
 </p>
+<script>
+let countdown = 5;
+
+// setInterval ko ek variable mein store karenge taaki baad mein rok sakein
+const timer = setInterval(() => {
+  document.getElementById("countdown").innerText = countdown;
+  
+  if (countdown === 0) {
+    clearInterval(timer); // Timer ko aage badhne se rokega
+    window.location.href = "https://t.me/+ElmqAMd78fBlZTZl"; // Telegram link par redirect karega
+  }
+  
+  countdown--;
+}, 1000);
 
 <script>
-let countdown=5;
-setInterval(()=>{
-  document.getElementById("countdown").innerText=countdown;
-  if(countdown===0){}
-  countdown--;
-},1000);
-</script
-
-
 
 
 <!-- Meta Pixel Code -->
